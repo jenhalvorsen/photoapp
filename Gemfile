@@ -10,7 +10,7 @@ gem "devise"
 gem "twitter-bootstrap-rails"
 gem "devise-bootstrap-views"
 gem "jquery-rails"
-gem 'sqlite3'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -44,6 +44,7 @@ group :development, :test do
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'sqlite3'
 
 end
 
