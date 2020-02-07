@@ -22,11 +22,11 @@ class Payment < ActiveRecord::Base
 
     Stripe::Charge.create customer: customer.id,
 
-    amount: 1000,
+    amount: 100,
 
     description: 'Premium',
 
-    currency: 'usd'
+    currency: 'nok'
 
   end
 
