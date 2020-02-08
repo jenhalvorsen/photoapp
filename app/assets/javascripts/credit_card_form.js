@@ -48,7 +48,7 @@ $form.append($("<input type=\"hidden\" name=\"payment[token]\" />").val(token));
 
 $("[data-stripe=number]").remove();
 
-$("[data-stripe=cvv]").remove();
+$("[data-stripe=cvc]").remove();
 
 $("[data-stripe=exp-year]").remove();
 
